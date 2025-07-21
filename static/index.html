@@ -83,7 +83,7 @@
             try {
                 // IMPORTANT: 将 'http://127.0.0.1:8000' 替换为你的后端API在 Render 上的实际部署 URL！
                 // 例如: 'https://your-backend-service.onrender.com'
-                const backendUrl = 'http://127.0.0.1:8000'; // 先用本地地址测试，部署时修改
+                const backendUrl = 'https://aqi-predictor-r747.onrender.com'; // 先用本地地址测试，部署时修改
                 const response = await fetch(`${backendUrl}/predict_aqi/`, {
                     method: 'POST',
                     headers: {
